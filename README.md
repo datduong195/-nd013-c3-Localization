@@ -42,3 +42,6 @@ In the final major step, you should be able to transform the filtered scan using
 <img width="960" alt="result_1" src="https://user-images.githubusercontent.com/36104217/179542178-ff762e4f-6ab0-4a48-96f8-890b9bbf0af9.png">
 <img width="960" alt="result_2" src="https://user-images.githubusercontent.com/36104217/179542185-ea3e30b8-625d-47c2-a48c-45aa8efb4e44.png">
 
+#Improvement
+As suggested, the vehicle moves at a medium speed to keep the maximum pose error below 1.2m, but with medium speed, it would take really long time to reach 170m of travel distance.
+In main loop, the Lidar configuration can be changed such as: upper/lower FOV, number of channels, scan range, rotation freqency or number of points per second.
